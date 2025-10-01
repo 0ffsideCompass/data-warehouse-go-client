@@ -25,5 +25,5 @@ func (c *Client) CreatePodcast(request models.DataWarehouseCreatePodcastRequest)
 		return fmt.Errorf("error creating podcast: %w", err)
 	}
 
-	returnnil
+	return nil
 }
